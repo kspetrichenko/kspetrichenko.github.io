@@ -165,23 +165,3 @@ Current projects include a large work on the subject of human memory for the Int
  </div><br>
   <br>
   <center><font class="bask14">Please contact me with any questions, including rental/purchase information: jasontbuchanan {at} gmail.com</font>
-
-
-
-
-<!--  <center> <a href="long-bio">long bio</a> -->
-
-<!--
-{% include soundcloud_player.html type="tracks" trackID=blanknumber %}
-
-{% include soundcloud_player.html type="tracks" trackID=blanknumber %}
-
-<div class="col-sm-6 mx-auto">
-  <figure class="figure">
-    <img src="{{ site.images }}/blank.jpg" class="figure-img img-fluid">
-    <figcaption class="figure-caption text-center">To read more <em>The Turin Horse</em>, <a href="https://www.blank.html">click here.</a></figcaption>
-  </figure>
-</div>
-
-<img class="float-sm-right col-sm-6 col-lg-5 p4-0 pb-3" src="{{ site.images }}/sivan-post/blank.jpg">
--->

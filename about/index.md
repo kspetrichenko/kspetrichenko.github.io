@@ -8,31 +8,35 @@ postDescription: About
 tags:
 background: black
 ---
-<img class="float-sm-left col-sm-5 col-lg-4 p4-0 pb-0" src="{{ site.images }}/jtb-photos/jtb-royaumont-420x600-web.jpg">
-Jason Thorpe Buchanan is an American composer whose works explore multiplicity, intelligibility, behavior, and the integration of live performance with technology. He is Artistic Director of <a href="http://www.switchensemble.com" target="blank"> the [Switch~ Ensemble]</a>, Department Chair/Lecturer in Composition, Theory, and Electroacoustic Music at the <a href="https://www.music.mahidol.ac.th/en/" target="blank">College of Music, Mahidol University</a> in Thailand, and Fall 2020 Visiting Lecturer in Composition/Interim Director of the Electronic Music Studios (UTEMS) at the <a href="https://music.utexas.edu/" target="blank">Butler School of Music, University of Texas at Austin</a>.  
-
-<!-- new para -->
-Jason is the recipient of a 2010-11 Fulbright Fellowship (Hamburg, Germany), nomination for the 2015 Gaudeamus Prize, an American-Scandinavian Foundation Grant, two ASCAP Morton Gould Young Composer Awards (2014 & 2015), the Howard Hanson Orchestral Prize (2014), fellowships and commissions from Royaumont (2016 & 2017), the Mizzou International Composers Festival, MATA, the International Horn Society, Gaudeamus Muziekweek, Eklekto Percussion, Tzlil Meudcan, the German/American Fulbright Commission, the Earle Brown Music Foundation, and winner of Iron Composer (2014), 2015 Artist-in-Residence at USF Verftet (Bergen, Norway), 2017 Artist-in-Residence at the Brush Creek Foundation (Wyoming), and 2018 Artist-in-Residence at the Embassy of Foreign Artists (Geneva, Switzerland).
-
-<!-- new para -->
-
-Commissions and performances include collaborations with <a href="www.alarmwillsound.com" target="blank">Alarm Will Sound</a>, <a href="http://taleaensemble.org/" target="blank">Talea Ensemble</a>, <a href="http://www.ensembleinterface.com/" target="blank">Ensemble Interface</a> (DE), <a href="http://www.ensemblenikel.com/" target="blank">Ensemble Nikel</a> (Israel), <a href="http://www.ensemble-linea.com/" target="blank">Linea</a> (FR), Insomnio (NL), EXAUDI Vocal Ensemble (UK), Slagwerk Den Haag (NL), Eklekto Percussion (CH), the <a href="http://www.mivosquartet.com/" target="blank">Mivos Quartet</a> (USA), <a href="http://www.iktuspercussion.com" target="blank">Iktus Percussion</a>, the Blue Water Chamber Orchestra, Académie Voix Nouvelles Ensemble (FR), New European Ensemble, <a href="http://wildup.la" target="blank">wild Up</a>, the NY Virtuoso Singers, the <a href="http://www.esm.rochester.edu/ensembles/musicanova/" target="blank">Eastman Musica Nova Ensemble</a>, TACETi (Thailand), and the Hong Kong New Music Ensemble.
-
-<!-- new para -->
-
-Scenes from his multimedia opera <a href="http://www.hungeropera.com" target="blank"><em>Hunger</em></a> have received performances at Darmstadt, <a href="http://theindustryla.org" target="blank">The Industry</a>'s FIRST TAKE in L.A., and <a href="http://matafestival.org/mata-interval/" target="blank">MATA</a> (NYC) with <a href="http://www.switchensemble.com" target="blank">the [Switch~ Ensemble]</a>.
 
 
-<!-- new para -->
-He holds a Ph.D. from the Eastman School of Music, served for three years as Executive Director of the <a href="http://www.vipafestival.org" target="blank">VIPA Festival</a> (Spain), two years as a Curator for the <a href="http://centerfornewmusic.com/" target="blank">San Francisco Center for New Music</a>, as founding director of the TICF International Academy for Young Composers, and as a Faculty Artist at the International Composition Institute of Thailand.
 
-As a guest composer, conductor, and lecturer, he is widely sought internationally at institutions such as the University of Chicago, Stanford, TRANSIT Festival (Belgium), TIME SPANS Festival (NYC), Chamber Music Campania (Italy), Eastman, University of Miami Frost School of Music, Music Science Share Educators Conference (Shanghai), Queens New Music Festival, MATA, the Thailand New Music and Arts Symposium, Yong Siew Toh Conservatory (Singapore), the Bergen Center for Elektronisk Kunst (BEK, Norway), and over two dozen Universities throughout the United States. Current projects include a large work on the subject of human memory for the International Contemporary Ensemble and Hong Kong New Music Ensemble, commissioned by the MATA Festival in NYC, and research in the field of telematic performance with the [Switch~ Ensemble].
+<img src=" ">
+
+<a href=" ">
+
+
+<img class="float-sm-left col-sm-5 col-lg-4 p4-0 pb-0" src="{{ site.images }}/ks-photos/jtb-royaumont-420x600-web.jpg">
+Ksenia Petrichenko is blah blah blah this is where her bio will go later.....
+
+
+
+<a href="http://www.switchensemble.com" target="blank"> the [Switch~ Ensemble]</a>
+
+
+
+, Department Chair/Lecturer in Composition, Theory, and Electroacoustic Music at the <a href="https://www.music.mahidol.ac.th/en/" target="blank">College of Music, Mahidol University</a> in Thailand, and Fall 2020 Visiting Lecturer in Composition/Interim Director of the Electronic Music Studios (UTEMS) at the <a href="https://music.utexas.edu/" target="blank">Butler School of Music, University of Texas at Austin</a>.  
+
 
 
 
 <!--
 <iframe class="embed-responsive-item mb-3" src="https://player.vimeo.com/video/245320082" allowfullscreen width="1300" height="736"></iframe>
 <br> -->
+
+
+
+<br>
 
 <!-- YANKED FROM JTB WEBSITE -->
 

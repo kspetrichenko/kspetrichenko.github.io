@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+
+<link rel="stylesheet" href="{{ site.assets }}/css/bootstrap.min.css" async>
+<script src="{{ site.assets }}/js/jtb-bootstrap-4.3.1.min.js" async></script>
+
+
+<!-- Plugins and Icon Fonts-->
+<link href="{{ site.assets }}/css/plugins.min.css" rel="stylesheet" async>
+<!-- lightbox CSS-->
+<link href="{{ site.assets }}/css/lightbox.min.css" rel="stylesheet" defer>
+
+<link rel="stylesheet" href="{{ site.assets }}/css/jtb-jquery.fancybox.min.css" defer/>
+
+<script src="{{ site.assets }}/js/jquery.fancybox.min3.5.7.js" defer></script>
+
+
+<!-- THIS IS FOR SCORES -->
+<script type="text/javascript" async>
+
+function toggle_text(shown, hidden) {
+       var e = document.getElementById(shown);
+       var f = document.getElementById(hidden);
+    if(e.style.display == 'inline') {
+                  e.style.display = 'none';
+                  f.style.display = 'inline';
+      }
+      else {
+                  e.style.display = 'inline';
+                  f.style.display = 'none';
+      }
+}
+</script>
+
+ <script language="javascript" async>
+<!--
+function getItem(id)
+    {
+        var itm = false;
+        if(document.getElementById)
+            itm = document.getElementById(id);
+        else if(document.all)
+            itm = document.all[id];
+        else if(document.layers)
+            itm = document.layers[id];
+        return itm;
+    }
+    function toggleItem(id)
+    {
+        itm = getItem(id);
+        if(!itm)
+            return false;
+        if(itm.style.display == 'none')
+            itm.style.display = '';
+        else
+            itm.style.display = 'none';
+        return false;
+    }
+//-->
+</script>
+
+<script src="{{ site.assets }}/js/lightbox-plus-jquery.min.js" defer></script>
+
+	</head>
+
+
+	<body>
+		<!-- Layout-->
+		<div class="layout">
+
+	</body>
+</html>

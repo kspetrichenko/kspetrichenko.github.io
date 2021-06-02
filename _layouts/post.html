@@ -1,0 +1,123 @@
+---
+layout: default-without-ends
+---
+{%- if page.headerImage -%}
+  <!-- Page Header-->
+  <section class="module-header parallax bg-dark bg-dark-50" data-background="{{ site.images }}/{{ page.headerImage }}">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-12">
+  			<!--	<h1 class="h1 m-b-20">{{ page.title }}</h1>
+         {%- if page.author -%}
+            <p>{{ page.author }}</p>
+          {%- endif -%} -->
+          {%- if page.categories contains 'blog' -%}
+            {%- if page.manualDate -%}
+              <p>{{ page.manualDate }}</p>
+            {%- else -%}
+              <p>{{ page.date | date: "%B %d, %Y" }}</p>
+            {%- endif -%}
+          {%- endif -%}
+  			</div>
+  		</div>
+  	</div>
+  </section>
+  <!-- Page Header end-->{%- elsif page.title -%}
+  <!-- Page Header--><section class="module-page-title">
+    <div class="container">
+      <div class="row-page-title">
+        <h1 class="h5 text-center">{{ page.title }}</h1>
+      </div>
+    </div>
+  </section>
+  <!-- Page Header end-->{%- endif -%}
+
+<!-- Module -->{%- if page.moduleSize == 'small' -%}
+<section class="module-sm module-divider-bottom">
+{%- else -%}
+<section class="module module-divider-bottom">
+{%- endif -%}
+  {%- if page.container == 'fluid' -%}
+    <div class="container-fluid">
+  {%- else -%}
+    <div class="container {% if page.categories contains 'blog' -%}w-75{%- endif -%}">
+  {%- endif -%}
+
+    {{ content }}
+
+  {%- if page.categories contains 'blog' -%}
+      <ul class="social-icons">
+        <li class="h4">Share: </li>
+        <li class=""><a href="https://facebook.com/sharer.php?u=www.jasonthorpebuchanan.com" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li> |
+        <li class="ml-2"><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url=www.jasonthorpebuchanan.com&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li> |
+      </ul>
+  {%- endif -%}
+
+  </div>
+
+
+<!-- score -->
+
+    <div class="single-portfolio-title nopadding" width="98%">
+      <div class="row portfolio-details" width="98%">
+          {%- if page.score  -%}
+        <div class="col-2">{% include {{ page.score }} %}</div>
+        {%- endif -%}
+
+
+<!-- end score -->
+
+{%- if page.media -%}
+<!-- Media-->
+<div class="col-10 mb-5">
+  {% assign printHeader = false %}  <!-- successfully removed header -->
+  {%- for item in page.media -%}
+    {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
+      {%- if printHeader == true -%}
+        <h2 class="text-left">Media</h2>
+        {% assign printHeader = nil %}
+      {%- endif -%}
+      <div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen width="1300" height="736"></iframe></div>
+    {%- elsif item.url contains 'soundcloud' -%}
+      {%- if printHeader == true -%}
+        <h2 class="text-left">Media</h2>
+        {% assign printHeader = nil %}
+      {%- endif -%}
+      {%- if item.url contains 'sets' -%}
+        <div class="col-12 mb-3">{% include soundcloud_player.html type="playlists" trackID=item.ID %}</div>
+      {%- else -%}
+        <div class="col-12 mb-3">{% include soundcloud_player.html type="tracks" trackID=item.ID %}</div>
+      {%- endif -%}
+    {%- else -%}
+    {% comment %}
+      <div class="col-12 mb-3">
+        <audio src="{{ item.url }}" preload="auto" />
+      </div>
+    {% endcomment %}
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+{%- endif -%}
+</div>  </div>
+</section>
+<!-- Module end-->
+
+
+
+{%- if page.photosFolder -%}
+<!-- Gallery-->
+<section class="module bg-dark-50">
+  <div class="container">
+
+    <div class="row m-b-50">
+      <div class="col-md-12">
+      <!--  <h3 class="text-center m-b-50">
+          Photos from the Performance
+        </h3> -->
+        {% include photos-portfolio-masonry.html folderName=page.photosFolder %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Gallery end-->
+{%- endif -%}

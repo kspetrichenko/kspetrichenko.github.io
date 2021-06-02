@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include head.html %}
+	</head>
+	<body>
+		<!-- Layout-->
+<!--		<div class="layout"> -->
+			<!-- Header-->
+			<!-- Header end-->
+			<!-- Wrapper-->
+			<div class="row" height="auto">
+				{{ content }}
+				<!-- Footer-->
+				<!-- Footer end-->
+		<!--		<a class="scroll-top" href="#top"><i class="fa fa-angle-up"></i></a> -->
+			</div>
+			<!-- Wrapper end-->
+		</div>
+		<!-- Layout end-->
+		{%- comment -%}
+			<!-- Off canvas-->
+			{% include off-canvas-sidebar.html %}
+			<!-- Off canvas end-->
+		{%- endcomment -%}
+		<!-- Scripts -->
+		{% include scripts.html %}
+		<!-- Scripts end-->
+
+			{% include foot.html %}
+	</body>
+</html>

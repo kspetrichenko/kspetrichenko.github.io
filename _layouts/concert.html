@@ -1,0 +1,184 @@
+---
+layout: default-without-ends
+---
+
+<section class="module-header parallax bg-dark bg-dark-50" data-background="{{ site.images }}/{{ page.headerImage }}">
+  <div class="container">
+    <div class="row" >
+      <div class="col-md-12">
+      <!--	<h1 class="h1 m-b-20">{{ page.title }}</h1>
+       {%- if page.author -%}
+          <p>{{ page.author }}</p>
+        {%- endif -%} -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Page Header-->
+
+<!-- <section class="module-page-title">
+  <div class="container">
+    <div class="row-page-title">
+      <h1 class="h5 text-center">
+        {%- if page.event -%}
+          Performance at {{ page.event }}
+        {%- elsif page.location.institution -%}
+          Performance at {{ page.location.institution }}
+        {%- else page.location.venue -%}
+          Performance at {{ page.location.venue }}
+        {%- endif -%}
+      </h1>
+    </div>
+  </div>
+</section> -->
+
+
+<!-- Page Header end-->
+
+<!-- Google maps image-->
+<!-- <div id="inputs">
+  <input id="address" type="textbox" value="{{ page.location.address }}, {{ page.location.city }}, {{ page.location.state }}">
+</div>
+<div class="maps-container">
+  <div id="map-canvas"></div>
+</div> -->
+<!-- Google maps image end-->
+
+<!-- Portfolio-->
+<section class="module">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+        <h2 class="single-portfolio-title">
+          {%- if page.event -%}
+            {{ page.event }}
+          {%- elsif page.location.institution -%}
+            Performance at {{ page.location.institution }}
+          {%- else page.location.venue -%}
+            Performance at {{ page.location.venue }}
+          {%- endif -%}
+        </h2><br><br>
+        <p>
+        <div class="concert-program mb-3">
+          {%- for work in page.program -%}
+            <div class="row">
+              <div class="col-6 col-sm-4 font-weight-bold text-uppercase">{{ work.composer }}</div>
+              <div class="col-6 col-sm-8 font-italic">{{ work.title }}</div>
+            </div>
+          {%- endfor -%}
+        </div>
+
+        {{ content }}
+
+
+        <!-- end score -->
+
+        {%- if page.media -%}
+        <!-- Media-->
+        <div class="col-10 mb-5">
+          {% assign printHeader = false %}  <!-- successfully removed header -->
+          {%- for item in page.media -%}
+            {%- if item.url contains 'youtube' or item.url contains 'vimeo' -%}
+              {%- if printHeader == true -%}
+                <h2 class="text-left">Media</h2>
+                {% assign printHeader = nil %}
+              {%- endif -%}
+              <div class="mb-3"><iframe class="embed-responsive-item mb-3" src="{{ item.url }}" allowfullscreen width="1300" height="736"></iframe></div>
+            {%- elsif item.url contains 'soundcloud' -%}
+              {%- if printHeader == true -%}
+                <h2 class="text-left">Media</h2>
+                {% assign printHeader = nil %}
+              {%- endif -%}
+              {%- if item.url contains 'sets' -%}
+                <div class="col-12 mb-3">{% include soundcloud_player.html type="playlists" trackID=item.ID %}</div>
+              {%- else -%}
+                <div class="col-12 mb-3">{% include soundcloud_player.html type="tracks" trackID=item.ID %}</div>
+              {%- endif -%}
+            {%- else -%}
+            {% comment %}
+              <div class="col-12 mb-3">
+                <audio src="{{ item.url }}" preload="auto" />
+              </div>
+            {% endcomment %}
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+        {%- endif -%}
+        </div>  </div>
+        <!-- Module end-->
+
+
+			<div class="col-lg-4">
+				<div class="portfolio-details text-center text-md-left">
+					<ul>
+						<li>
+							<h5>Date: &nbsp;&nbsp;<font class="roboto">
+              {{ page.date | date: "%B %d, %Y" }}</font>
+						</li>
+            {%- if page.event -%}
+              <li>
+                <h5>Event: &nbsp;&nbsp;<font class="roboto">
+                {{ page.event }}
+              </font></li>
+            {%- endif -%}
+            {%- if page.time -%}
+              <li>
+                <h5>Time:</h5>
+                {{ page.time }}
+              </li>
+            {%- endif -%}
+						<li>
+							<h5>Location: &nbsp;&nbsp;<font class="roboto">
+              {%- if page.location.institution -%}{{ page.location.institution }}<br />{%- endif -%}
+              {%- if page.location.building -%}{{ page.location.building }}<br />{%- endif -%}
+              {%- if page.location.venue -%}{{ page.location.venue }}<br />{%- endif -%}
+              {%- if page.location.address -%}{{ page.location.address }}<br />{%- endif -%}
+              {%- if page.location.country -%}
+                {{ page.location.city }}, {{ page.location.country }}
+              {%- else -%}
+                {{ page.location.city }}, {{ page.location.state }} {{ page.location.zip }}
+              {%- endif -%}</font>
+						</li>
+            {%- if page.tickets.url -%}
+              <li>
+                <a class="btn btn-round btn-sm btn-success my-2" href="{{ page.tickets.url }}" role="button">Tickets</a>
+              </li>
+            {%- endif -%}
+						<li>
+							<h5><ul class="social-icons">Share: &nbsp;&nbsp;&nbsp;&nbsp;
+								<li><a href="https://facebook.com/sharer.php?u=www.jasonthorpebuchanan.com" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://twitter.com/intent/tweet?text={{ page.title }}&url=www.jasonthorpebuchanan.com&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share on Twitter"><i class="fa fa-twitter"></i></a></li></h5>
+						</li>
+					</ul>
+				</div>
+			</div>
+    </div>
+</section>
+<!-- Portfolio end-->
+
+
+{%- if page.photosFolder -%}
+<!-- Gallery-->
+<section class="module bg-dark-50">
+  <div class="container">
+    <div class="row m-b-50">
+      <div class="col-md-12">
+        <h3 class="text-center m-b-50">
+          Photos from the Performance
+        </h3>
+        {% include photos-portfolio-masonry.html folderName=page.photosFolder %}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Gallery end-->
+{%- endif -%}
+
+<!-- Performance Pagination-->
+<section class="module module-divider-top">
+	<div class="container">
+
+    {% include more-performances.html %}
+
+  </div>
+</section>

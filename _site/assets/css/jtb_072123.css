@@ -285,6 +285,14 @@ h3,
     font-weight: 700;
 }
 
+h3-condensed,
+.h3-condensed {
+    font-size: 24px;
+    font-family: "Poppins", Arial, sans-serif;
+    font-weight: 700;
+    line-height: 0.7;
+}
+
 h4,
 .h4 {
     font-size: 16px;
@@ -294,9 +302,20 @@ h4,
 h5,
 .h5 {
     font-weight: 600;
-    font-size: 13px;
+    font-size: 12px;
     margin: 0 0 10px;
+        line-height: 0.7;
 }
+
+h5-condensed,
+.h5condensed {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 0.9;
+}
+
+
+
 
 h6,
 .h6 {
@@ -304,6 +323,7 @@ h6,
     font-size: 10px;
     margin: 0 0 10px;
 }
+
 
 .roboto {
     background-color: #050709;
@@ -2509,7 +2529,7 @@ body.off-canvas-sidebar-open .layout {
 
 .header .container,
 .header .container-fluid {
-    position: relative;
+    position: left;
     display: table;
     height: 100%; /* 100 leaves some space above the glitch icon when it collapses at top */
 }
@@ -2532,7 +2552,7 @@ body.off-canvas-sidebar-open .layout {
 }
 
 .inner-header {
-    vertical-align: middle;
+    vertical-align: bottom;
 }
 
 .inner-nav {
@@ -2541,8 +2561,8 @@ body.off-canvas-sidebar-open .layout {
 
 .extra-nav,
 .inner-header {
-    min-width: 140px;
-    max-width: 140px;
+    min-width: 330px;
+    max-width: 330px;
     overflow: hidden;
 }
 
@@ -2942,8 +2962,9 @@ body.off-canvas-sidebar-open .layout {
 
     .header .container,
     .header .container-fluid {
-        width: 100%;
-        padding: 0 24px; /* - - CHECK ME - I AM  CHANGED second number controls distance of favicon and navsquare from edge - - - - - - - - - - - - - - ! ! ! ! */
+        width: 30%;
+        padding: 0 18px; /* - - CHECK ME - I AM  CHANGED second number controls distance of favicon and navsquare from edge - - - - - - - - - - - - - - ! ! ! ! */
+        text-align: left;
     }
 
     .header.header-right .inner-nav,

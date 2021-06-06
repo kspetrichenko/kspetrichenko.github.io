@@ -7,10 +7,12 @@ layout: default-without-ends
 	</head>
 {%- if page.headerImage -%}
   <!-- Page Header-->
-  <section class="module-header parallax bg-dark bg-dark-50" data-background="{{ site.images }}/{{ page.headerImage }}" width="90%">
+  <!-- <section class="module-header parallax bg-dark-50" data-background="{{ site.images }}/{{ page.headerImage }}" width="80%" height="80"> -->
+	<center>
+		<img src="{{ site.images }}/{{ page.headerImage }}" width="90%" height="90%">
   	<div class="container">
 
-  </section>
+<!--  </section> -->
   <!-- Page Header end-->
 {%- endif -%}
 
@@ -23,7 +25,7 @@ layout: default-without-ends
   {%- if page.container == 'fluid' -%}
     <div class="container-fluid">
   {%- else -%}
-    <div class="container" background-color="#1a1c1e">
+    <div class="container" background-color="#ffffff">
   {%- endif -%}
     {{ content }}
   </div>

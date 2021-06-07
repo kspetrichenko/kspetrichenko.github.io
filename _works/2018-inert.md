@@ -4,7 +4,7 @@ composer:
   last: Petrichenko
 title: "Inert"
 duration:
-yearComposed: "2018; rev. 2020"
+yearComposed: "2018, rev. 2020"
 commissionedOrWrittenFor:
 size: "45x55, oil, canvas"
 instrumentation:

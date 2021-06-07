@@ -3952,7 +3952,7 @@ z-index: auto;
 .portfolio-overlay {
     position: absolute;
     background: rgba(49, 49, 49, .95);
-    opacity: 0.33; /* - - CHANGED 1 is grey overlay before hover, higher number is darker - - - - - ! ! ! ! */
+    opacity: 0.4; /* - - CHANGED 1 is grey overlay before hover, higher number is darker - - - - - ! ! ! ! */
     z-index: 0.5;
     left: 0;
     top: 0;
@@ -3966,7 +3966,7 @@ z-index: auto;
     position: absolute;
     /*padding: 25px;*/
     width: 100%;
-    opacity:1;  /* - - CHANGED all text over image ! ! ! */
+    opacity:0.25;  /* - - CHANGED all text over image ! ! ! */
     z-index: 1;
     top: 44%; /* - - CHANGED this is the height of the title text! */
     left: 0;
@@ -3996,13 +3996,13 @@ z-index: auto;
 }
 
 .portfolio-item:hover .portfolio-subtitle {
--webkit-transform: scale(0.9); /* - - CHECK ME - I AM  CHANGED was 1.2 - - - - - */
-        transform: scale(0.9);
+-webkit-transform: scale(1.1); /* - - CHECK ME - I AM  CHANGED was 1.2 - - - - - */
+        transform: scale(1.1);
 }
 
 .portfolio-item:hover .portfolio-title {
--webkit-transform: scale(0.95); /* - - CHECK ME - I AM  CHANGED was 1.2 - - - - - */
-        transform: scale(0.95);
+-webkit-transform: scale(1.05); /* - - CHECK ME - I AM  CHANGED was 1.2 - - - - - */
+        transform: scale(1.05);
 }
 
 
@@ -4016,16 +4016,16 @@ z-index: auto;
 }
 
 .portfolio-item:hover .portfolio-wrapper img {
-    -webkit-transform: scale(1.05); /* - - CHECK ME - I AM  CHANGED was 1.2 - - - - - */
-            transform: scale(1.05);
+    -webkit-transform: scale(1.02); /* - - CHECK ME - I AM  CHANGED was 1.2 - - - - - */
+            transform: scale(1.02);
 }
 
 .portfolio-item:hover .portfolio-overlay {
-    opacity: 0.6;  /* - - CHECK ME - I AM  CHANGED try removing? - - - - - */
+    opacity: 0.2;  /* - - CHECK ME - I AM  CHANGED try removing? - - - - - */
 }
 
 .portfolio-item:hover .portfolio-caption {
-    opacity: 1;  /* - - CHANGED lower makes text transparent on hover  - - - - - ! ! ! ! */
+    opacity: 0.99;  /* - - CHANGED lower makes text transparent on hover  - - - - - ! ! ! ! */
     -webkit-transform: translateY(-20%); /* - -  CHANGED raises text when hover - - - - */
             transform: translateY(-20%);
 

@@ -32,14 +32,8 @@ title: works
     </ul>
     <ul class="filters h6" id="filters">
 			<li><a class="current" href="#" data-filter="*">All</a></li>
-      <li><a href="#" data-filter=".voices">Ensemble with voices</a></li>
-      <li><a href="#" data-filter=".orchestra">Orchestra/Large Ensemble</a></li>
-      <li><a href="#" data-filter=".chamber">Chamber (3-8 players)</a></li>
-      <li><a href="#" data-filter=".percussion">Percussion (2-4 players)</a></li>
-      <li><a href="#" data-filter=".solo">Solo</a></li>
-        <li><a href="#" data-filter=".acoustic">Acoustic</a></li>
-          <li><a href="#" data-filter=".electronics">Electroacoustic</a></li>
-            <li><a href="#" data-filter=".video">Video</a></li>
+      <li><a href="#" data-filter=".canvas">CANVAS</a></li>
+      <li><a href="#" data-filter=".paper">PAPER</a></li>
       {% comment %}
       {%- for tag in tagArray -%}
         <li><a href="#" data-filter=".{{ tag }}">{{ tag | capitalize }}</a></li>
@@ -80,7 +74,7 @@ title: works
           </h5>
       <h6 class="portfolio-subtitle font-serif"><br><br><br><br>{{ work.commissionedOrWrittenFor }}</h6>
         </div>
-        <a data-fancybox data-type="iframe" class="portfolio-link" href="{{ work.url }}" target="_blank"></a>
+        <a data-fancybox data-type="iframe" class="portfolio-link" href="{{ work.url }}" target="_blank" width="100%" height="50vh" data-caption="{{ work.title }} ({{ work.yearComposed }})<br>{{ work.size }}"></a>
 			</div>
     </div>
   {%- endfor -%}
@@ -88,3 +82,11 @@ title: works
 
 <center><font class="bask14">Please contact me with any questions, including rental/purchase information: jasontbuchanan {at} gmail.com</font><br>
 	<!-- Portfolio end-->
+
+
+
+
+    <!--   <img
+      src="{{ site.assets }}/images/2019/worlds-apart-660.jpg" rel="popup" height="80%" width="80%" data-fancybox="image"
+      href="{{ site.assets }}/images/2019/worlds-apart-1920.jpg"
+      data-caption="Worlds Apart"></div></div> -->

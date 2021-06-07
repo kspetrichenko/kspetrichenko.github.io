@@ -23,7 +23,14 @@ Born and raised in Russia, after spending 10 years in Europe (Budapest and later
 
 <br>
 
-<img src="{{ site.images }}/ks-photos/kspetrichenko-headshot-portrait.jpg">
+<!-- LIGHTBOX BEGIN -->
+  <div class="row full-width" width="100%" height="50vh" align="center">
+    <div class="col-12 nopadding">
+      <img
+      src="{{ site.images }}/ks-photos/kspetrichenko-headshot-portrait.jpg" rel="popup" height="80%" width="80%" data-fancybox="image"
+      href="{{ site.images }}/ks-photos/kspetrichenko-headshot-portrait.jpg"
+      data-caption="Ksenia Petrichenko, Thailand, 2020"></div></div>
+<!-- LIGHTBOX END -->
 
 <br>
 

@@ -4,7 +4,7 @@ composer:
   last: Petrichenko
 title: "Inert"
 duration:
-yearComposed: "2018, rev. 2020"
+yearComposed: 2018
 commissionedOrWrittenFor:
 size: "45x55, oil, canvas"
 instrumentation:
@@ -12,6 +12,7 @@ tags:
   - oil
   - canvas
 media:
+
 score:
 headerImage: 2018/inert-1920.jpg
 portWrapper: 2018/inert-660.jpg
@@ -22,5 +23,5 @@ dedication:
 premiere:
 
 ---
-*Inert* was painted in
+*Inert* was painted in 2018 and revised in 2020
 <br><Br>

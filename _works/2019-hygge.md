@@ -11,6 +11,7 @@ instrumentation:
 tags:
   - mixed media
   - canvas
+  - 2019
 media:
 
 score:

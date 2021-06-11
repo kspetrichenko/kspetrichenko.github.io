@@ -2,7 +2,7 @@
 composer:
   first: Ksenia
   last: Petrichenko
-title: "Worlds Apart"
+title: "Worlds apart"
 duration:
 yearComposed: 2019
 commissionedOrWrittenFor:
@@ -11,6 +11,7 @@ instrumentation:
 tags:
   - mixed media
   - canvas
+  - 2019
 media:
 score:
 headerImage: 2019/worlds-apart-1920.jpg
@@ -22,5 +23,5 @@ dedication:
 premiere:
 
 ---
-*Worlds Apart* was painted in
+*Worlds apart* was painted in
 <br><Br>

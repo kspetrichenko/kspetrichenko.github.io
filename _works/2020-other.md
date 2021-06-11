@@ -11,6 +11,7 @@ instrumentation:
 tags:
   - acrylic
   - canvas
+  - 2020
 media:
 score:
 headerImage: 2020/other-1920.jpg

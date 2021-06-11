@@ -11,6 +11,7 @@ instrumentation:
 tags:
   - oil
   - canvas
+  - 2018
 media:
 
 score:
@@ -23,5 +24,5 @@ dedication:
 premiere:
 
 ---
-*Inert* was painted in 2018 and revised in 2020
+*Inert* was painted in 2018 and revised in 2020.
 <br><Br>

@@ -2,7 +2,7 @@
 composer:
   first: Ksenia
   last: Petrichenko
-title: "Walking Away"
+title: "Walking away"
 duration:
 yearComposed: 2020
 commissionedOrWrittenFor:
@@ -11,6 +11,7 @@ instrumentation:
 tags:
   - acrylic
   - canvas
+  - 2020
 media:
 score:
 headerImage: 2020/walking-away-1920.jpg
@@ -22,5 +23,5 @@ dedication:
 premiere:
 
 ---
-*Walking Away* was painted in 2020
+*Walking away* was painted in 2020 in Thailand.
 <br><Br>

@@ -11,6 +11,8 @@ instrumentation:
 tags:
   - acrylic
   - paper
+  - 2020
+  - mini
 media:
 score:
 headerImage: 2020/standing-strong-1920.jpg
@@ -22,5 +24,5 @@ dedication:
 premiere:
 
 ---
-*Standing Strong* was painted in 2020
+*Standing Strong* was painted in 2020 in Thailand.
 <br><Br>

@@ -30,10 +30,23 @@ title: works
       <li><a href="./index.html" class="{%- unless page.url contains 'list' -%}current{%- endunless -%}">Portfolio View</a></li>
       <li><a href="./list-view.html" class="{%- if page.url contains 'list' -%}current{%- endif -%}">List View</a></li>
     </ul>
-    <ul class="filters h6" id="filters">
+    <ul class="filters h6" id="filters"><br>
+      <li><a href="#" data-filter=".processing">Processing</a></li>
+        <li><a href="#" data-filter=".mini">Mini Paintings</a></li>
+          <li><a href="#" data-filter=".sketch">Sketch</a></li>
+            <li><a href="#" data-filter=".collage">Collage</a></li>
+      <br>
+      <li><a href="#" data-filter=".2019">2019</a></li>
+      <li><a href="#" data-filter=".2020">2020</a></li>
+      <br>
 			<li><a class="current" href="#" data-filter="*">All</a></li>
       <li><a href="#" data-filter=".canvas">CANVAS</a></li>
       <li><a href="#" data-filter=".paper">PAPER</a></li>
+      <li><a href="#" data-filter=".mixed">MIXED MEDIA</a></li>
+      <li><a href="#" data-filter=".acrylic">ACRYLIC</a></li>
+      <li><a href="#" data-filter=".pen">PEN</a></li>
+
+
       {% comment %}
       {%- for tag in tagArray -%}
         <li><a href="#" data-filter=".{{ tag }}">{{ tag | capitalize }}</a></li>
@@ -74,13 +87,14 @@ title: works
           </h5>
       <h6 class="portfolio-subtitle font-serif"><br><br><br><br>{{ work.commissionedOrWrittenFor }}</h6>
         </div>
-        <a data-fancybox data-type="iframe" class="portfolio-link" href="{{ work.url }}" target="_blank" width="100%" height="50vh" data-caption="{{ work.title }} ({{ work.yearComposed }})<br>{{ work.size }}"></a>
+        <!-- HERE IS WHERE THE CAPTION INFO IS GENERATED -->
+        <a data-fancybox data-type="iframe" class="portfolio-link" href="{{ work.url }}" target="_blank" width="100%" height="100vh" data-caption="{{ work.title }} ({{ work.yearComposed }})<br>{{ work.size }}<br>{{ work.purchase }} - {{ work.contact }}"></a>
 			</div>
     </div>
   {%- endfor -%}
 </div>
 
-<center><font class="bask14">Please contact me with any questions, including rental/purchase information: jasontbuchanan {at} gmail.com</font><br>
+<center><font class="bask14">Please contact me with any questions, including rental/purchase information: kspetric.art {at} gmail.com</font><br>
 	<!-- Portfolio end-->
 
 

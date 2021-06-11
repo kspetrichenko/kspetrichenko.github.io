@@ -12,6 +12,8 @@ tags:
   - acrylic
   - pen
   - paper
+  - 2020
+  - processing
 media:
 score:
 headerImage: 2020/processing-desolation-1920.jpg
@@ -23,5 +25,5 @@ dedication:
 premiere:
 
 ---
-*Processing: Desolation* was painted in 2020
+*Processing: Desolation* was painted in 2020 in Thailand.
 <br><Br>

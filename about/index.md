@@ -9,8 +9,6 @@ tags:
 background: black
 ---
 
-
-
 <img src=" ">
 
 <a href=" ">
@@ -36,16 +34,6 @@ Born and raised in Russia, after spending 10 years in Europe (Budapest and later
 
 Please contact me with any questions, including purchase information: kspetric.art[at]gmail[dot]com
 
-
-<!--
-
-<a href="http://www.switchensemble.com" target="blank"> the [Switch~ Ensemble]</a>
-
-
-
-, Department Chair/Lecturer in Composition, Theory, and Electroacoustic Music at the <a href="https://www.music.mahidol.ac.th/en/" target="blank">College of Music, Mahidol University</a> in Thailand, and Fall 2020 Visiting Lecturer in Composition/Interim Director of the Electronic Music Studios (UTEMS) at the <a href="https://music.utexas.edu/" target="blank">Butler School of Music, University of Texas at Austin</a>.  
-
--->
 
 
 <!--

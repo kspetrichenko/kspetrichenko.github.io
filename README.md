@@ -1,6 +1,6 @@
 # Switch~ Ensemble Website
 
-This README serves as documentation for how the Jason Thorpe Buchanan website is structured and for updating it in the future in case there's a time when Jason is not actively updating it.
+This README serves as documentation for how the Ksenia Petrichenko website is structured and for updating it in the future in case there's a time when Ksenia is not actively updating it.
 
 This website is built upon a template that uses the [Bootstrap][BS4 website] toolkit, and the site is hosted on GitHub pages and built with GitHub's [Jekyll][Jekyll website] static site generator. Jekyll relies extensively on the [Liquid][Liquid Github] templating engine, which facilitates developing sites through templates and scripting. Hopefully, this website is setup in such a way that it is easy to update even if you have no background in web development. But knowing a bit about Jekyll, Liquid, and YAML will definitely be helpful. You can find out more about these and other things here:
 

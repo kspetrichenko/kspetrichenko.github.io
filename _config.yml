@@ -19,7 +19,7 @@ twitter:
 description: > # this means to ignore newlines until "baseurl:"
  Ksenia Petrichenko
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.ksp-art.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "kspetrichenko.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 assets: "/assets"
 images: "/assets/images"
 

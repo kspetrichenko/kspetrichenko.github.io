@@ -1,16 +1,16 @@
 - title: Home
-  url: https://kspetrichenko.github.io/
+  url: / 
 
 - title: About
-  url: https://kspetrichenko.github.io/about/
+  url: /about/
 
 - title: Works
-  url: https://kspetrichenko.github.io/works/
+  url: /works/
     # - page: Events
       # url: /projects/events/
 
 - title: Gallery
-  url: https://kspetrichenko.github.io/gallery/
+  url: /gallery/
 
 #  - title: Events
 #    url: /events/

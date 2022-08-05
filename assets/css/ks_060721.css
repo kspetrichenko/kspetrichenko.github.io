@@ -175,7 +175,7 @@ footer aside .fa {
 
 .style1 {font-family: "Baskerville", Times, serif;
 	font-size: xx-large;}
-.style2 {font-weight: 500; font-size: 28px; font-family: "Baskerville", Times, serif; color: #fafbfc; text-shadow: 2px 2px #000000; padding: 15px 5px solid #000; display: block;}
+.style2 {font-weight: 500; font-size: 28px; font-family: "Baskerville", Times, serif; color: #0a0a0a; text-shadow: 2px 2px #000000; padding: 15px 5px solid #000; display: block;}
 
 
 a {
@@ -242,7 +242,7 @@ h6,
     font-family: "Poppins", Arial, serif;
     line-height: 1.1;
     font-weight: 300;
-    color: #fafbfc; /* - - CHECK ME - I AM  CHANGED from 313131 to bfbfbf  - - - - - - - - - - - - - - ! ! ! ! */
+    color: #0a0a0a; /* - - CHECK ME - I AM  CHANGED from 313131 to bfbfbf  - - - - - - - - - - - - - - ! ! ! ! */
     text-align: center;
 
 }

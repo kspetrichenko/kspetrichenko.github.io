@@ -314,6 +314,7 @@ h5,
     font-weight: 600;
     font-size: 12px;
     margin: 0 0 10px;
+    color: #fafafa; /* - - CHECK ME - I AM  CHANGED from 313131 to bfbfbf  - - - - - - - - - - - - - - ! ! ! ! */
         line-height: 0.7;
 }
 h5-info,
@@ -3654,7 +3655,7 @@ z-index: auto;
 .bg-dark,
 .bg-gradient {
     color: #1a1b1f; /* - - CHECK ME - I AM  CHANGED from WHITE to NEAR BLACK  - - - - - - - - - - - - - - ! ! ! ! */
-    opacity: 0.85; /* - - CHECK ME - I AM  CHANGED from THIS IS THE HEADER IMAGE OPACITY  - - - - - - - - - - - - - - ! ! ! ! */
+    opacity: 0.97; /* - - CHECK ME - I AM  CHANGED from THIS IS THE HEADER IMAGE OPACITY  - - - - - - - - - - - - - - ! ! ! ! */
     -webkit-transition: 3.2s opacity ease;
             transition: 3.2s opacity ease;
 }

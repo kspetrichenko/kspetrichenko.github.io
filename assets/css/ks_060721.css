@@ -3654,8 +3654,8 @@ z-index: auto;
 
 .bg-dark,
 .bg-gradient {
-    color: #1a1b1f; /* - - CHECK ME - I AM  CHANGED from WHITE to NEAR BLACK  - - - - - - - - - - - - - - ! ! ! ! */
-    opacity: 0.97; /* - - CHECK ME - I AM  CHANGED from THIS IS THE HEADER IMAGE OPACITY  - - - - - - - - - - - - - - ! ! ! ! */
+    color: #0a0b0f; /* - - CHECK ME - I AM  CHANGED from WHITE to NEAR BLACK  - - - - - - - - - - - - - - ! ! ! ! */
+    opacity: 1; /* - - CHECK ME - I AM  CHANGED from THIS IS THE HEADER IMAGE OPACITY  - - - - - - - - - - - - - - ! ! ! ! */
     -webkit-transition: 3.2s opacity ease;
             transition: 3.2s opacity ease;
 }

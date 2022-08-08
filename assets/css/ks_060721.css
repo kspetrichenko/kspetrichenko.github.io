@@ -13,9 +13,9 @@ Version:     1.3.1
 img {vertical-align: top;}
 
 .fancybox-slide--iframe .fancybox-content {
-    width  : 100%;
+    width  : 98%;
     height : 90%;
-    max-width  : 2200px;
+    max-width  : 2000px;
     max-height : 90%;
     margin: 0;
 }
@@ -3219,7 +3219,7 @@ body.off-canvas-sidebar-open .layout {
         background-color: transparent !important;
     width: 100%;
     position: relative; /* huahin -- if absolute this disappears, keep as relative - - CHANGED  - */
-    padding: 31vh 6vh; /* huahin - - CHANGED  - was 0 0 in custom this is the height of the header image-  second number is image position in relation to the bottom -  - - ! ! ! ! */  -->
+    padding: 48vh 6vh; /* huahin - - CHANGED  - was 0 0 in custom this is the height of the header image-  second number is image position in relation to the bottom -  - - ! ! ! ! */  -->
 }
 
 .module,

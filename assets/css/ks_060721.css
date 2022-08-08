@@ -3733,21 +3733,21 @@ z-index: auto;
 }
 
 .bg-dark-30:before {
-    background-color: rgba(34, 34, 34, .3);
+    background-color: rgba(34, 34, 34, .0);
     content: "";
     left: 0;
     top: 0;
 }
 
 .bg-dark-60:before {
-    background: rgba(34, 34, 34, .6);
+    background: rgba(34, 34, 34, .1);
     content: "";
     left: 0;
     top: 0;
 }
 
 .bg-dark-90:before {
-    background: rgba(34, 34, 34, .9);
+    background: rgba(34, 34, 34, .1);
     content: "";
     left: 0;
     top: 0;

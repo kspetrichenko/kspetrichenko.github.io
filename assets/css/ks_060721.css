@@ -3220,13 +3220,13 @@ body.off-canvas-sidebar-open .layout {
         background-color: transparent !important;
     width: 100%;
     position: relative; /* huahin -- if absolute this disappears, keep as relative - - CHANGED  - */
-    padding: 50vh 2vh; /* huahin - - CHANGED  - was 0 0 in JTB custom this is the height of the header image-  second number is image position in relation to the bottom -  - - ! ! ! ! */  -->
+    padding: 31vh 6vh; /* huahin - - CHANGED  - was 0 0 in custom this is the height of the header image-  second number is image position in relation to the bottom -  - - ! ! ! ! */  -->
 }
 
 .module,
 .module-sm {
     background-color: #e9e9e9; /* - - THIS IS BACKGROUND COLOR FOR ABOUT, CONCERT, ETC - - - - - - - - - - - - - - ! ! ! ! */
-    background-position: 50%;
+    background-position: center%;
 background-image: url("/images/crumpled-bg.jpg");
 background-repeat: no-repeat;
 background-size: cover;
@@ -3514,7 +3514,7 @@ z-index: auto;
     .module-header {
         height: 100%; /* from 30vh to 100% huahin - -  CHANGED  height of cover image area parallax banner  - - - - - - - - - - - ! ! ! ! */
         min-height: 40vh; /* - -  CHANGED  height of cover image area, June 22 from 30vh - - - */
-        padding: 9vh 1px; /* huahin - -  CHANGED padding above text Jason Thorpe Buchanan- - - - - - - - - - ! ! ! ! */
+        padding: 9vh 1px; /* huahin - -  CHANGED padding above text - - - - - - - - - - ! ! ! ! */
     }
 
 

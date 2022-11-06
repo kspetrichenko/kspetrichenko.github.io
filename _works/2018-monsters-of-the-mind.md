@@ -3,7 +3,6 @@ composer:
   first: Ksenia
   last: Petrichenko
 title: "Monsters of the mind"
-duration:
 yearComposed: 2018
 commissionedOrWrittenFor:
 size: "45x55, oil, canvas"

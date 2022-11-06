@@ -3,8 +3,8 @@ layout: page
 categories: blog
 headerImage: /ks-photos/kspetrichenko-beach.jpg
 date: 2020-01-04
-manualDate: Jan. 4 2020
-postDescription: About
+manualDate: Nov. 6 2022
+postDescription: Eco Art
 tags:
 background: black
 ---
@@ -15,19 +15,18 @@ background: black
 
 
 <img class="float-sm-left col-sm-5 col-lg-4 p4-0 pb-0" src="{{ site.images }}/ks-photos/kspetrichenko-headshot-portrait.jpg">
-Ksenia Petrichenko’s artwork investigates the human experience and reflects parallel explorations in life. She is fascinated by the entire spectrum of human emotions, drawing from a wide range of her own lived experiences—physically, cognitively, and emotionally. A drive to understand the deeper intricacies of life and her own mind led her to the pursuit of knowledge beyond her immediate surroundings, moving far away from her hometown at a young age to seek new experiences and expertise in international environmental issues. Her artistic practice is her primary vehicle into an otherwise turbulent inner world of perplexing feelings and emotions—to make sense of that which so often goes unexpressed externally. Intuitive and intimate, Ksenia's art is a pathway for her to pause, reflect, and process, expressing her most labyrinthine thoughts and feelings through shapes, colors, textures, and lines on canvas and paper.
 
-Born and raised in Russia, after spending 10 years in Europe (Budapest and later Copenhagen), Ksenia now resides in Bangkok, Thailand, working full-time as an international expert in the field of sustainable energy by day and as a painter by night.
+This is a placeholder for a page about my Eco Art.
 
 <br>
 
 <!-- LIGHTBOX BEGIN -->
- <div class="row full-width" width="100%" height="50vh" align="center">
+  <div class="row full-width" width="100%" height="50vh" align="center">
     <div class="col-12 nopadding">
       <img
-      src="{{ site.images }}/ks-photos/2430964.jpg" rel="popup" height="80%" width="80%" data-fancybox="image"
+      src="{{ site.images }}/ks-photos/kspetrichenko-headshot-portrait.jpg" rel="popup" height="80%" width="80%" data-fancybox="image"
       href="{{ site.images }}/ks-photos/2430964.jpg"
-      data-caption="Ksenia Petrichenko, Thailand, 2020"></div></div> 
+      data-caption="Ksenia Petrichenko, Thailand, 2020"></div></div>
 <!-- LIGHTBOX END -->
 
 <br>

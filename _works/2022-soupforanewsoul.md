@@ -9,10 +9,10 @@ commissionedOrWrittenFor:
 size: "56x76, natural paints, air ink, paper"
 instrumentation:
 tags:
-  - natural paints
-  - air ink
+  - air-ink
   - paper
   - 2022
+  - natural-paints
 media:
 score:
 headerImage: 2022/soupforanewsoul-1920.jpg

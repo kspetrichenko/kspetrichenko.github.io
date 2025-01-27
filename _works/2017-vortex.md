@@ -13,10 +13,9 @@ tags:
   - canvas
   - 2017
 media:
-
 score:
-headerImage: 2017/vortex-1920.jpg
-portWrapper: 2017/vortex-660.jpg
+headerImage: 2017/Vortex-1920.jpg
+portWrapper: 2017/Vortex-660.jpg
 purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:

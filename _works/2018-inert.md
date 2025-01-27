@@ -17,7 +17,7 @@ media:
 score:
 headerImage: 2018/inert-1920.jpg
 portWrapper: 2018/inert-660.jpg
-purchase: "$200.00"
+purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

@@ -16,7 +16,7 @@ media:
 score:
 headerImage: 2019/fear-of-loss-1920.jpg
 portWrapper: 2019/fear-of-loss-660.jpg
-purchase: "$200.00"
+purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

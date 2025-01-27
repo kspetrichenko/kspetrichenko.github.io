@@ -16,7 +16,7 @@ media:
 score:
 headerImage: 2019/flowing-experiment-1920.jpg
 portWrapper: 2019/flowing-experiment-660.jpg
-purchase: "$200.00"
+purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

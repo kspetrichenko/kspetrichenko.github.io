@@ -18,7 +18,7 @@ media:
 score:
 headerImage: 2020/processing-obfuscation-1920.jpg
 portWrapper: 2020/processing-obfuscation-660.jpg
-purchase: "$200.00"
+purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

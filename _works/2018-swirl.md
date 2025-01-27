@@ -17,7 +17,7 @@ media:
 score:
 headerImage: 2018/swirl-1920.jpg
 portWrapper: 2018/swirl-660.jpg
-purchase: "$200.00"
+purchase: "$"
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

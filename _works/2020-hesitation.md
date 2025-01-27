@@ -16,7 +16,7 @@ media:
 score:
 headerImage: 2020/hesitation-1920.jpg
 portWrapper: 2020/hesitation-660.jpg
-purchase: "$200.00"
+purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

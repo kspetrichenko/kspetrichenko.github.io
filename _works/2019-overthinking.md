@@ -17,7 +17,7 @@ media:
 score:
 headerImage: 2019/overthinking-1920.jpg
 portWrapper: 2019/overthinking-660.jpg
-purchase: "$200.00"
+purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

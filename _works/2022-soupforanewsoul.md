@@ -17,7 +17,7 @@ media:
 score:
 headerImage: 2022/soupforanewsoul-1920.jpg
 portWrapper: 2022/soupforanewsoul-660.jpg
-purchase: "$200.00"
+purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

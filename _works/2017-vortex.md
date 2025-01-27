@@ -15,8 +15,8 @@ tags:
 media:
 
 score:
-headerImage: 2018/vortex-1920.jpg
-portWrapper: 2018/vortex-660.jpg
+headerImage: 2017/vortex-1920.jpg
+portWrapper: 2017/vortex-660.jpg
 purchase: ""
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
@@ -24,5 +24,5 @@ dedication:
 premiere:
 
 ---
-*Vortex* was painted in 2018 and it is the first abstract painting I painted 
+*Vortex* was painted in 2017 and it is the first abstract painting I painted 
 <br><Br>

@@ -16,7 +16,7 @@ media:
 score:
 headerImage: 2019/comfort-zone-1920.jpg
 portWrapper: 2019/comfort-zone-660.jpg
-purchase: ""
+purchase: 
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

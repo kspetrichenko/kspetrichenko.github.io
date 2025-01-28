@@ -13,11 +13,10 @@ tags:
   - canvas
   - 2019
 media:
-
 score:
 headerImage: 2019/hygge-1920.jpg
 portWrapper: 2019/hygge-660.jpg
-purchase: ""
+purchase: 
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:

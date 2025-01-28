@@ -17,7 +17,7 @@ media:
 score:
 headerImage: 2019/comforting-solitude-1920.jpg
 portWrapper: 2019/comforting-solitude-660.jpg
-purchase: ""
+purchase: 
 contact: "kspetric.art[at]gmail[dot]com"
 awards:
 dedication:
